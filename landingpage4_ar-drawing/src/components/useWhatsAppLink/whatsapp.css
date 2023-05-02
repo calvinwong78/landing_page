@@ -1,0 +1,15 @@
+.whatsapp-link-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  
+  .whatsapp-link-image {
+    width: 90px;
+    height: 90px;
+  }
+
+
+

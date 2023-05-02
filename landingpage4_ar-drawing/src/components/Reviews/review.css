@@ -1,0 +1,698 @@
+.Review{
+    height: 700px;
+   background-color: #2a5ee4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    padding-bottom: 100px;
+}
+
+.Review-header h2{
+    padding-left: 4rem;
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    font-family: 'Nunito';
+    font-size: 49px;
+    color: white;
+    width: 80%;
+}
+.Review-body{
+   
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+}
+
+.Review-images{
+    width: 80px;
+    
+}
+
+.Review-logo{
+    
+    height: 30%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Review-items{
+   
+    background-color: rgb(76, 120, 243);
+    border-radius: 6px;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.Reviewer{
+    position: relative;
+    top: 55px;
+    left: -25px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    right: 55px;
+    gap: 4%;
+}
+
+.rev-border-img{
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviewer h3{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Nunito';
+    color: white;
+    margin-top: 10px;
+}
+
+.Review-desc{
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Review-desc p{
+    color: black;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 35px;
+}
+
+.review-wrapper{
+    
+    height: 100%;
+}
+
+.bubble {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 350px;
+    background: #fff;
+    border-radius: 40px;
+    padding: 24px;
+    text-align: center;
+    color: #000;
+    transition: .6s ease-in-out;
+  }
+  
+  .bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -24px;
+  }
+
+  .bubble:hover {
+    transform: scale(1.1);
+  }
+
+@media screen and  (max-width:850px){
+    .Review{
+        height: fit-content;
+        background-color: #2a5ee4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .Review-header h2{
+        padding-left: 0;
+        width: 100%;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 38px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .Review-body{
+       
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50%;
+    }
+    
+    .Review-images{
+        width: 80px;
+        
+    }
+    
+    .Review-logo{
+        
+        height: 30%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .Review-items{
+        
+        background-color: rgb(76, 120, 243);
+        border-radius: 6px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Reviewer{
+        position: relative;
+        top: 40px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        right: 55px;
+    }
+    
+    .rev-border-img{
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Reviewer h3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Nunito';
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .Review-desc{
+       
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Review-desc p{
+        color: black;
+        text-align: left;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+        line-height: 35px;
+    }
+    
+    .review-wrapper{
+        
+        height: 100%;
+    }
+    
+    .bubble {
+        position: relative;
+        left: 90px;
+        margin: 90px 0;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        width: 400px;
+        height: 300px;
+        background: #fff;
+        border-radius: 40px;
+        padding: 24px;
+        text-align: center;
+        color: #000;
+        transition: .6s ease-in-out;
+      }
+      
+      .bubble-bottom-left:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 24px solid #fff;
+        border-right: 12px solid transparent;
+        border-top: 12px solid #fff;
+        border-bottom: 20px solid transparent;
+        left: 32px;
+        bottom: -24px;
+      }
+    
+      .bubble:hover {
+        transform: scale(1.1);
+      }
+      
+}
+
+@media screen and  (max-width:600px){
+    .Review{
+        height: fit-content;
+        background-color: #2a5ee4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .Review-header h2{
+        padding-left: 0;
+        width: 100%;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 38px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .Review-body{
+       
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50%;
+    }
+    
+    .Review-images{
+        width: 80px;
+        
+    }
+    
+    .Review-logo{
+        
+        height: 30%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .Review-items{
+        
+        background-color: rgb(76, 120, 243);
+        border-radius: 6px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Reviewer{
+        position: relative;
+        top: 40px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        right: 55px;
+    }
+    
+    .rev-border-img{
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Reviewer h3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Nunito';
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .Review-desc{
+       
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Review-desc p{
+        color: black;
+        text-align: left;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+        line-height: 35px;
+    }
+    
+    .review-wrapper{
+        
+        height: 100%;
+    }
+    
+    .bubble {
+        position: relative;
+        left: 30px;
+        margin: 90px 0;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        width: 300px;
+        height: 250px;
+        background: #fff;
+        border-radius: 40px;
+        padding: 24px;
+        text-align: center;
+        color: #000;
+        transition: .6s ease-in-out;
+      }
+      
+      .bubble-bottom-left:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 24px solid #fff;
+        border-right: 12px solid transparent;
+        border-top: 12px solid #fff;
+        border-bottom: 20px solid transparent;
+        left: 32px;
+        bottom: -24px;
+      }
+    
+      .bubble:hover {
+        transform: scale(1.1);
+      }
+      
+}
+
+
+@media screen and  (max-width:500px){
+    .Review{
+        height: fit-content;
+        background-color: #2a5ee4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .Review-header h2{
+        padding-left: 0;
+        width: 100%;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 38px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .Review-body{
+       
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50%;
+    }
+    
+    .Review-images{
+        width: 80px;
+        
+    }
+    
+    .Review-logo{
+        
+        height: 30%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .Review-items{
+        
+        background-color: rgb(76, 120, 243);
+        border-radius: 6px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Reviewer{
+        position: relative;
+        top: 40px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        right: 55px;
+    }
+    
+    .rev-border-img{
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Reviewer h3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Nunito';
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .Review-desc{
+       
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Review-desc p{
+        color: black;
+        text-align: left;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+        line-height: 35px;
+    }
+    
+    .review-wrapper{
+        
+        height: 100%;
+    }
+    
+    .bubble {
+        position: relative;
+        right: 14px;
+        margin: 90px 0;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        width: 300px;
+        height: 250px;
+        background: #fff;
+        border-radius: 40px;
+        padding: 24px;
+        text-align: center;
+        color: #000;
+        transition: .6s ease-in-out;
+      }
+      
+      .bubble-bottom-left:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 24px solid #fff;
+        border-right: 12px solid transparent;
+        border-top: 12px solid #fff;
+        border-bottom: 20px solid transparent;
+        left: 32px;
+        bottom: -24px;
+      }
+    
+      .bubble:hover {
+        transform: scale(1.1);
+      }
+      
+}
+
+@media screen and  (max-width:400px){
+    .Review{
+        height: fit-content;
+        background-color: #2a5ee4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4%;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    
+    .Review-header h2{
+        padding-left: 0;
+        width: 100%;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 38px;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .Review-body{
+       
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50%;
+    }
+    
+    .Review-images{
+        width: 80px;
+        
+    }
+    
+    .Review-logo{
+        
+        height: 30%;
+        align-items: flex-end;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .Review-items{
+        
+        background-color: rgb(76, 120, 243);
+        border-radius: 6px;
+        width: 500px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Reviewer{
+        position: relative;
+        top: 40px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        right: 55px;
+    }
+    
+    .rev-border-img{
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Reviewer h3{
+        font-weight: 600;
+        font-size: 20px;
+        font-family: 'Nunito';
+        color: white;
+        margin-top: 10px;
+    }
+    
+    .Review-desc{
+       
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Review-desc p{
+        color: black;
+        text-align: left;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Open Sans';
+        line-height: 35px;
+    }
+    
+    .review-wrapper{
+        
+        height: 100%;
+    }
+    
+    .bubble {
+        position: relative;
+        left: 13px;
+        margin: 90px 0;
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        width: 290px;
+        height: 250px;
+        background: #fff;
+        border-radius: 40px;
+        padding: 24px;
+        text-align: center;
+        color: #000;
+        transition: .6s ease-in-out;
+      }
+      
+      .bubble-bottom-left:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 24px solid #fff;
+        border-right: 12px solid transparent;
+        border-top: 12px solid #fff;
+        border-bottom: 20px solid transparent;
+        left: 32px;
+        bottom: -24px;
+      }
+    
+      .bubble:hover {
+        transform: scale(1.1);
+      }
+      
+}

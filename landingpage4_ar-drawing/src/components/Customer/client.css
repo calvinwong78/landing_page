@@ -1,0 +1,15 @@
+
+
+
+.slick-slide {
+  display: inline-block;
+  
+}
+.slick-slide img {
+  width: 45%;
+}
+
+.client-containers{
+  width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,299 @@
+.Themes_body{
+    height: 56rem;
+    padding: 90px 0;
+    background-color: #f3f9fd;
+    overflow: hidden;
+}
+
+.Themes_head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Themes_head .themes_header h2{
+    
+    font-weight: 800;
+    color: #141010;
+    letter-spacing: 5px;
+    font-family: 'Nunito';
+    font-size: 45px;
+}
+
+.themes_desc p{
+    color: #141010;
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.wrapper_themes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Theme_slide{
+    width: 1000px;
+    
+}
+
+.carousel-control-next-icon{
+    top: 325px;
+    right: 320px;
+    position: relative;
+    background-image : url(../../img/icons8-forward-48.png) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #eacb29 !important;
+    top: 70px;
+    position: relative;
+}
+
+.carousel-control-prev-icon{
+    top: 325px;
+    left: 320px;
+    position: relative;
+    background-image : url(../../img/icons8-back-48.png) !important;
+}
+
+.carousel-inner {
+    
+    box-shadow: 0 6px 10px rgb(66, 66, 66);
+}
+
+.carousel-caption h3{
+    color: #F9F4F4 !important;
+    font-size: 70px;
+    text-shadow: 2px 3px #7bb5e4;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+.video_themes {
+    width: 100% !important;
+    height: 564px;
+    display: block !important;
+}
+
+.w-100{
+    height: 564px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .Themes_body{
+        height: fit-content;
+        padding: 90px 0;
+        background-color: #f3f9fd;
+      
+    }
+    .wrapper_themes{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+      
+    }
+    
+.Theme_slide{
+    width: 80%;
+    
+}
+.w-100{
+    height: 100%;
+}
+.carousel-control-next-icon{
+    top: 10px;
+    left: 60px;
+    position: relative;
+    background-image : url(../../img/icons8-forward-48.png) !important;
+}
+.carousel-control-prev-icon{
+    top: 10px;
+    left: -60px;
+    position: relative;
+    background-image : url(../../img/icons8-back-48.png) !important;
+}
+.video_themes {
+    width: 100% !important;
+    height: 100%;
+    display: block !important;
+}
+
+.carousel-caption h3{
+    color: #F9F4F4 !important;
+    font-size: 30px;
+    text-shadow: 2px 3px #7bb5e4;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.Themes_head .themes_header h2{
+    
+    font-weight: 800;
+    color: #141010;
+    letter-spacing: 5px;
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: center;
+}
+.themes_desc p{
+    color: #141010;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.Themes_head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .Themes_body{
+        height: fit-content;
+        padding: 90px 0;
+        background-color: #f3f9fd;
+      
+    }
+    .wrapper_themes{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+      
+    }
+    
+.Theme_slide{
+    width: 80%;
+    
+}
+.w-100{
+    height: 100%;
+}
+.carousel-control-next-icon{
+    top: 10px;
+    left: 60px;
+    position: relative;
+    background-image : url(../../img/icons8-forward-48.png) !important;
+}
+.carousel-control-prev-icon{
+    top: 10px;
+    left: -60px;
+    position: relative;
+    background-image : url(../../img/icons8-back-48.png) !important;
+}
+.video_themes {
+    width: 100% !important;
+    height: 100%;
+    display: block !important;
+}
+
+.carousel-caption h3{
+    color: #F9F4F4 !important;
+    font-size: 30px;
+    text-shadow: 2px 3px #7bb5e4;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.Themes_head .themes_header h2{
+    
+    font-weight: 800;
+    color: #141010;
+    letter-spacing: 5px;
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: center;
+}
+.themes_desc p{
+    color: #141010;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.Themes_head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .Themes_body{
+        height: fit-content;
+        padding: 90px 0;
+        background-color: #f3f9fd;
+      
+    }
+    .wrapper_themes{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+      
+    }
+    
+.Theme_slide{
+    width: 80%;
+    
+}
+.w-100{
+    height: 100%;
+}
+.carousel-control-next-icon{
+    top: 10px;
+    left: 90px;
+    position: relative;
+    background-image : url(../../img/icons8-forward-48.png) !important;
+}
+.carousel-control-prev-icon{
+    top: 10px;
+    left: -90px;
+    position: relative;
+    background-image : url(../../img/icons8-back-48.png) !important;
+}
+.video_themes {
+    width: 100% !important;
+    height: 100%;
+    display: block !important;
+}
+
+.carousel-caption h3{
+    color: #F9F4F4 !important;
+    font-size: 30px;
+    text-shadow: 2px 3px #7bb5e4;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.Themes_head .themes_header h2{
+    
+    font-weight: 800;
+    color: #141010;
+    letter-spacing: 5px;
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: center;
+}
+.themes_desc p{
+    color: #141010;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+.Themes_head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+}

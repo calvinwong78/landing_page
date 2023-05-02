@@ -1,0 +1,207 @@
+.Buy{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.buy_heading h2{
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    font-family: 'Nunito';
+    font-size: 45px;
+}
+
+.container-buy{
+    display: flex;
+    flex-direction: row;
+    gap: 9%;
+    width: 100%;
+    justify-content: center;
+}
+
+.buy_heading {
+    margin-bottom: 50px;
+}
+
+.buy_wrapper{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 9px;
+    height: 600px;
+    width: 400px;
+    padding: 30px;
+    transition: .6s ease-in-out;
+}
+.buy_wrapper:hover{
+    transform: scale(1.1);
+}
+
+
+.buy_item_header{
+    text-align: center;
+}
+
+.buy_item_header h2{
+    font-family: 'nunito';
+    font-weight: 700;
+}
+
+.buy_item_body p{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Open Sans';
+}
+
+.item-notes{
+    font-size: 15px !important;
+}
+
+.item-notes-1{
+    font-size: 15px !important;
+    margin-top: 42px !important; 
+}
+
+.CTA-button-buy {
+    background-color: #0c225b;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #0c225b;
+    width: 12vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+    transition: .3s ease-in;
+    transition: .8s;
+}
+.CTA-item-buy{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.CTA-button-buy:hover{
+  background-color:  orange;
+  border: 2px solid orange;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .Buy{
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       padding: 30px 10px;
+    }
+    .container-buy{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy_wrapper{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        border-radius: 9px;
+        height: fit-content;
+        width: 94%;
+        height: 100%;
+        padding: 20px;
+        transition: .6s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy_heading h2{
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .CTA-button-buy {
+        background-color: #0c225b;
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 2px solid #0c225b;
+        width: 38vw;
+        height: 8vw;
+        font-size: 3.9vw;
+        font-weight: 700;
+        transition: .3s ease-in;
+        transition: .8s;
+    }
+    .CTA-item-buy{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+    .Buy{
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       padding: 30px 10px;
+    }
+    .container-buy{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy_wrapper{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        border-radius: 9px;
+        height: fit-content;
+        width: 94%;
+        height: 100%;
+        padding: 20px;
+        transition: .6s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .buy_heading h2{
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .CTA-button-buy {
+        background-color: #0c225b;
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 2px solid #0c225b;
+        width: 38vw;
+        height: 8vw;
+        font-size: 3.9vw;
+        font-weight: 700;
+        transition: .3s ease-in;
+        transition: .8s;
+    }
+    .CTA-item-buy{
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+    
+}
+

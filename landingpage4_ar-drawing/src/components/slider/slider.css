@@ -1,0 +1,153 @@
+.slider {
+    margin: 40px 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.wrapper{
+  display: flex;
+  margin: 4.5rem 3rem;
+  gap: 8%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slider-header h2 {
+  width: 80%;
+      text-align: center;
+    
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    line-height: 60px;
+    font-family: 'Nunito';
+    font-size: 45px;
+}
+
+.slider-header h2 span {
+  color: orange;
+}
+.slider-header {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.slider-item img {
+  width: 200px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.slider-item  {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media screen and  (max-width:850px){
+  .slider-header h2 {
+    width: 80%;
+    text-align: center;
+      
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-family: 'Nunito';
+    font-size: 30px;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .wrapper{
+    display: flex;
+    margin: 4.5rem 3rem;
+    gap: 8%;
+   
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+}
+
+
+
+@media screen and  (max-width:500px){
+  .slider-header h2 {
+    width: 80%;
+    text-align: center;
+      
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-family: 'Nunito';
+    font-size: 30px;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .wrapper{
+    display: flex;
+    margin: 4.5rem 3rem;
+    gap: 8%;
+   
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+}
+
+
+@media screen and  (max-width:400px){
+  .slider-header h2 {
+    width: 80%;
+    text-align: center;
+      
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-family: 'Nunito';
+    font-size: 30px;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .wrapper{
+    display: flex;
+    margin: 4.5rem 3rem;
+    gap: 8%;
+   
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider-item  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+}

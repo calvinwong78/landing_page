@@ -1,0 +1,221 @@
+.Gallery{
+    height: 1490px;
+}
+
+.background-image{
+    width: 100%;
+}
+
+
+.gallery-header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 5.5px;
+    font-family: 'Nunito';
+    font-size: 45px;
+}
+
+.gallery-body{
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.gallery-image{
+    width: 480px;
+    height: 300px;
+}
+.img-header{
+    box-shadow: 0px 3px 10px black;
+    width: 100%;
+    transition: .5s;
+}
+
+.img-header:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.gallery-body{
+    margin: 4rem 4rem;
+}
+
+.img-caption{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-caption h3{
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+  font-family: 'Nunito';
+}
+
+.gallery-item{
+    width: 480px;
+}
+
+@media screen and  (max-width:850px){
+    .gallery-header h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    
+    .gallery-body{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .Gallery{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .gallery-item{
+        width: 320px;
+        margin: 0 195px;
+    }
+    .gallery-image{
+        width: 420px;
+        height: 290px;
+    }
+    .img-header{
+        box-shadow: 0px 3px 10px black;
+        width: 420px;
+        transition: .5s;
+        
+    }
+    .img-caption{
+        width: 420px;
+        padding-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+
+
+@media screen and  (max-width:400px){
+    .gallery-header h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .gallery-body{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .Gallery{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .gallery-item{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .gallery-image{
+        width: 320px;
+        height: 200px;
+    }
+  }
+
+  
+@media screen and  (max-width:600px){
+    .gallery-header h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .gallery-body{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .Gallery{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .gallery-item{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .gallery-image{
+        width: 320px;
+        height: 200px;
+    }
+    .img-header{
+        box-shadow: 0px 3px 10px black;
+        width: 320px;
+        transition: .5s;
+    }
+    .img-caption{
+        width: 320px;
+        padding-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+
+
+@media screen and  (max-width:500px){
+    .gallery-header h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 5.5px;
+        font-family: 'Nunito';
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    
+    .gallery-body{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .Gallery{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+    .gallery-item{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .gallery-image{
+        width: 320px;
+        height: 200px;
+    }
+  }
+  
