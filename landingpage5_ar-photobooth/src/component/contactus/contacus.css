@@ -1,0 +1,57 @@
+.Contact{
+    height: 700px;
+    background-color: #efc7b0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding-right: 120px;
+    font-family: 'Poppins';
+}
+
+.contact-header{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background-color: #f1b490;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+.contact-header h1{
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.contact-body{
+    background-color: #f1b490;
+    width: 600px;
+    height: 400px;
+    padding: 1.5rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact-button{
+    margin-top: 19px;
+    width: 190px;
+    height: 50px;
+    background-color: #d16a1d;
+    border: 3px solid #d16a1d;
+    border-radius: 40px;
+    font-size: 19px;
+    cursor: pointer;
+    color: white;
+    transition: .3s ease-in;
+}
+
+.contact-button:hover{
+    color: black;
+    background-color: #cccccc;
+    border: 3px solid #cccccc;
+}

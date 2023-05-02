@@ -1,0 +1,50 @@
+.Portfolio{
+    height: 2050px;
+    font-family: 'Poppins';
+    background-color: #f3efe9;
+}
+
+.portfolio-header{
+ padding: 0 6rem;
+ margin-bottom: 6rem;
+}
+
+
+.portfolio-header h1{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.portfolio-header span{
+    color: #d16a1d;
+    font-weight: 800;
+}
+
+.wrapper-title{
+    text-align: center;
+}
+
+.portfolio-body{
+    margin: 0 6rem;
+}
+
+.portfolio-wrapper{
+    width: 750px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-image{
+    width: 750px;
+    height: 400px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
