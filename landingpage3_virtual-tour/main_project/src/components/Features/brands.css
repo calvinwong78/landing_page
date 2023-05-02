@@ -1,0 +1,514 @@
+.features{
+    background-color: black;
+    height: 75vh;
+   
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    
+}
+
+.image-feature{
+    padding-right: 6vw;
+}
+
+.hero-brands{
+    height: 38vw;
+    width: 24vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  
+.logo{
+    height: 1.7vw;
+    width: 1.7vw;
+}
+.sub-features{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: var(--white);
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vw;
+}
+
+.features-heading{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    padding-top: 25px;
+    font-family: 'Montserrat';
+}
+
+
+.opacity-wrapper{
+    height: 100em;
+}
+
+.features-desc{
+    padding-top: .8vw ;
+    padding-bottom: .7vw;
+    font-size: .88vw;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+.features-card{
+    display: flex;
+    padding: .7vw 0;
+    width: fit-content;
+    
+}
+.features-card-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.features-card-item{
+   
+    padding-right: .8vw;
+    flex-direction: column;
+   text-align: left;
+   width: 10vw;
+}
+
+.card-item-heading{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: orange;
+}
+
+.card-item-desc{
+    font-size: .75vw;
+    line-height:  1.1vw;
+    padding-bottom: 0.9vw;
+    padding-top: 0.6vw;
+    font-weight: 300;
+}
+
+.card-item-icon{
+    padding-bottom: .5vw;
+}
+.wave {
+    
+    top: 0;
+    left: 0;
+    width: 200%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 163px;
+}
+
+.wave .shape-fill {
+    fill: #0E2A47;
+}
+.wrapper{
+    position: relative;
+}
+@media screen and  (max-width:1000px){
+    .features{
+        background-color: black;
+        height: 2000px;
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .hero-brands{
+        height: 700px;
+        width: 385px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sub-features{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: var(--white);
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: flex-start;
+        height: 1200px;
+    }
+    .features-heading {
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+        padding-top: 25px;
+        font-family: 'Montserrat';
+    }
+    .features-desc{
+        width: 85%;
+        padding-top: 10px;
+        padding-bottom: .7vw;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+    .features-card{
+        display: flex;
+        padding: 4.7vw 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .features-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+       
+    }
+    .features-card-item{
+
+        padding-right: .8vw;
+        flex-direction: column;
+       text-align: left;
+       width: 100%;
+       height: 200px;
+       
+    }
+    .logo{
+        height: 53px;
+        width: 53px;
+    }
+    .card-item-heading {
+        padding-top: 14px;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 20px;
+        color: orange;
+    }
+    .card-item-desc {
+        font-size: 25px;
+        line-height: 24px;
+        padding-bottom: 0.9vw;
+        padding-top: 18px;
+        font-weight: 300;
+        height: fit-content;
+    }
+}
+
+@media screen and  (max-width:900px){
+    .features{
+        background-color: black;
+        height: 2000px;
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .hero-brands{
+        height: 700px;
+        width: 385px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sub-features{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: var(--white);
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: flex-start;
+        height: 1200px;
+    }
+    .features-desc{
+        padding-top: 10px;
+        padding-bottom: .7vw;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+    .features-card{
+        display: flex;
+        padding: 4.7vw 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .features-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+       
+    }
+    .features-card-item{
+
+        padding-right: .8vw;
+        flex-direction: column;
+       text-align: left;
+       width: 100%;
+       height: 200px;
+       
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    .card-item-heading {
+        padding-top: 14px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 20px;
+        color: orange;
+    }
+    .card-item-desc {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 0.9vw;
+        padding-top: 18px;
+        font-weight: 300;
+        height: fit-content;
+    }
+}
+
+@media screen and  (max-width:500px){
+    .features{
+        background-color: black;
+        height: 190vh;
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .hero-brands{
+        height: 120vw;
+        width: 80vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sub-features{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: var(--white);
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: flex-start;
+        height: 1100px;
+    }
+    .features-desc{
+        padding-top: 13px;
+        padding-bottom: .7vw;
+        font-size: 4vw;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+    .features-card{
+        display: flex;
+        padding: 4.7vw 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .features-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+       
+    }
+    .features-card-item{
+
+        padding-right: .8vw;
+        flex-direction: column;
+       text-align: left;
+       width: 100%;
+       height: 200px;
+       
+    }
+    .logo{
+        height: 10.7vw;
+        width: 10.7vw;
+    }
+    .card-item-heading {
+        padding-top: 2.6vw;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 20px;
+        color: orange;
+    }
+    .card-item-desc {
+        font-size: 4.5vw;
+        line-height: 6.1vw;
+        padding-bottom: 0.9vw;
+        padding-top: 4.6vw;
+        font-weight: 300;
+        height: fit-content;
+    }
+}
+
+
+@media screen and  (max-width:400px){
+    .features{
+        background-color: black;
+        height: 1700px;
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .hero-brands{
+        height: 120vw;
+        width: 80vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sub-features{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: var(--white);
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: flex-start;
+        height: 300vw;
+    }
+    .features-desc{
+        padding-top: .8vw ;
+        padding-bottom: .7vw;
+        font-size: 4vw;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+    .features-card{
+        display: flex;
+        padding: 4.7vw 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .features-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+       
+    }
+    .features-card-item{
+
+        padding-right: .8vw;
+        flex-direction: column;
+       text-align: left;
+       width: 100%;
+       height: 55vw;
+       
+    }
+    .logo{
+        height: 10.7vw;
+        width: 10.7vw;
+    }
+    .card-item-heading {
+        padding-top: 2.6vw;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 20px;
+        color: orange;
+    }
+    .card-item-desc {
+        font-size: 4.5vw;
+        line-height: 6.1vw;
+        padding-bottom: 0.9vw;
+        padding-top: 4.6vw;
+        font-weight: 300;
+        height: fit-content;
+    }
+}
+
+@media screen and  (max-width:300px){
+    .features{
+        background-color: black;
+        height: 220vh;
+        width: 100%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .hero-brands{
+        height: 170vw;
+        width: 110vw;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .sub-features{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        color: var(--white);
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: flex-start;
+        height: 300vw;
+    }
+    .features-desc{
+        padding-top: 2.8vw ;
+        padding-bottom: 2.7vw;
+        font-size: 6.5vw;
+        font-weight: 300;
+        text-align: left;
+        font-family: 'Montserrat';
+    }
+    .features-card{
+        display: flex;
+        padding: 4.7vw 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .features-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+       
+    }
+    .features-card-item{
+
+        padding-right: .8vw;
+        flex-direction: column;
+       text-align: left;
+       width: 100%;
+       height: 55vw;
+       
+    }
+    .logo{
+        height: 16.7vw;
+        width: 16.7vw;
+    }
+    .card-item-heading {
+        padding-top: 2.6vw;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 20px;
+        color: orange;
+    }
+    .card-item-desc {
+        font-size: 5.5vw;
+        line-height: 6.1vw;
+        padding-bottom: 0.9vw;
+        padding-top: 4.6vw;
+        font-weight: 300;
+        height: fit-content;
+    }
+}

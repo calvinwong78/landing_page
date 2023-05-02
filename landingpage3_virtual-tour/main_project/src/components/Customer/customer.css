@@ -1,0 +1,36 @@
+.costumer{
+    height: 40vh;
+    background-color: black;
+    font-family: 'Montserrat';
+}
+
+.costumer .costumer-container {
+    color: white;
+}
+
+.costumer .costumer-container p:first-child {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    margin-right: 1.8rem;
+}
+
+.costumer .costumer-container p:nth-child(2) {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.costumer-line{
+    
+    display:flex;
+    width: 900px;
+    height: 3px;
+    margin-bottom: .5em;
+    margin-left: 19.5em;
+    
+    
+    background-color: orange;
+}

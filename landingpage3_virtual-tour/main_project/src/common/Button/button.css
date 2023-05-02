@@ -1,0 +1,18 @@
+.button{
+    padding: 15px 55px;
+    font-size: 24px;
+    font-weight: 600;
+    
+    width: max-content;
+    cursor: pointer;
+}
+
+.primary-btn{
+    color:var(--white);
+    background-color: var(--btn-bg);
+}
+
+.secondary-btn{
+ border: 2px solid var(--white);
+
+}
