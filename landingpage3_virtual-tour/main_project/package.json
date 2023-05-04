@@ -1,5 +1,5 @@
 {
-  "name": "dev-nft",
+  "name": "main_project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,10 @@
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.41.2",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "react-scroll-motion": "^0.3.2",
     "react-tsparticles": "^2.7.1",
     "sass": "^1.57.1",
